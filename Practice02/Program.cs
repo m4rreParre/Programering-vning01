@@ -14,6 +14,34 @@ namespace Practice02
             {4, 4, 4, 4}, //adds up to 16
         };
 
+/*Slumpmässigt generera en 2dim-array med viss x-längd, y-längd, och max-tal*/
+        static Random rng = new Random();
+        static int[,] generateRngArray(int xLenght, int yLenght, int n)
+        {
+            int[,] rngArray = new int[xLenght, yLenght];
+            for (int y = 0; y < rngArray.GetLength(0); y++)
+            {
+                for (int x = 0; x < rngArray.GetLength(1); x++)
+                {
+                    rngArray[y, x] = rng.Next(n);
+                }
+            }
+            return rngArray;
+        }
+        /*Skriv ut en viss 2dim-array*/
+        static void writeArray(int[,] inputArray)
+        {
+            for (int y = 0; y < inputArray.GetLength(0); y++)
+            {
+                for (int x = 0; x < inputArray.GetLength(1); x++)
+                {
+                    Console.Write($"{inputArray[y, x]},");
+                }
+                Console.WriteLine();
+            }
+        }
+
+
         static int AddRad(int[,] list, int n)
         {
             n--;
@@ -102,17 +130,26 @@ namespace Practice02
         {
             // int output = AddRad(SumList, -3);
             // Console.WriteLine(output);
-
             while (true)
             {
-                Console.WriteLine("what are you searching for ?");
+                Console.WriteLine("Skriv in vad för typ av array du vill ha !");
+                Console.WriteLine("O.B.S tar bara in siffor!");
+                Console.WriteLine("syntax: <x-längd> <y-längd> <max-tal i arrayen>");
                 Console.Write("> ");
-                int userInput = int.Parse(Console.ReadLine());
-                Cordinate returnedCordinate = CordinateFind(twoDimArray, userInput);
-                Console.WriteLine(returnedCordinate.y + ", " + returnedCordinate.x );
+                string[] token = Console.ReadLine().ToLower().Trim().Split(' ');
+                if(token.Length != 3 || token.Length > 3)
+                {
+                    Console.WriteLine("fel syntax skriv in 3 tal");
+                    continue;
+                }
+                int[,] GeneratedArray = generateRngArray(int.Parse(token[1]), int.Parse(token[0]), int.Parse(token[2]));
+                writeArray(GeneratedArray);
+
             }
 
-            
+
+
+
         }
     }
 }
