@@ -12,3 +12,4 @@ C:\Users\marre\Documents\VscProjects\school_work\Programerings övning inför ku
 C:\Users\marre\Documents\VscProjects\school_work\Programerings övning inför kursprov\Practice02\obj\Debug\net9.0\Practice02.pdb
 C:\Users\marre\Documents\VscProjects\school_work\Programerings övning inför kursprov\Practice02\obj\Debug\net9.0\Practice02.genruntimeconfig.cache
 C:\Users\marre\Documents\VscProjects\school_work\Programerings övning inför kursprov\Practice02\obj\Debug\net9.0\ref\Practice02.dll
+C:\Users\marre\Documents\VscProjects\school_work\Programerings övning inför kursprov\Practice02\obj\Debug\net9.0\Practice02.sourcelink.json
