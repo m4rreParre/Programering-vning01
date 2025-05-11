@@ -5,7 +5,7 @@ namespace GameOfLife
 {
     internal class Program
     {
-        static int res = 800;
+        static int res = 600;
         static int width = res / 25;
         static int height = res / 25;
 
@@ -56,7 +56,12 @@ namespace GameOfLife
             {
                 for (int j = -1; j < 2; j++)
                 {
-                    sum += grid[x + i, y + j];
+                    //wrap around with modulo formula - eftersom
+                    // if x = 0 och i = -1 och height är 10 så blir det 10 -1 = 9
+                    // 9 modulo height som är 10 = 9 så wrappar till slutet annars tar width och % widh ut varandra
+                    int col = (x + i + width) % width;
+                    int row = (y + j + height) % height;
+                    sum += grid[col, row];
                 }
             }
             sum -= grid[x, y];
@@ -73,9 +78,9 @@ namespace GameOfLife
             {
                 draw(grid);
                 int[,] next = make2DArray(width, height);
-                for (int i = 1; i < width - 1; i++)
+                for (int i = 0; i < width; i++)
                 {
-                    for (int j = 1; j < height - 1; j++)
+                    for (int j = 0; j < height; j++)
                     {
                         int sum = 0;
                         int neighbors = countNeighbors(grid, i, j);
@@ -94,7 +99,7 @@ namespace GameOfLife
                         }
                     }
                 }
-                System.Threading.Thread.Sleep(150);
+                System.Threading.Thread.Sleep(80);
                 Console.Clear();
                 grid = next;
             }
