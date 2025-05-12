@@ -5,9 +5,9 @@ namespace GameOfLife
 {
     internal class Program
     {
-        static int res = 600;
-        static int width = res / 25;
-        static int height = res / 25;
+        static int res = 800;
+        static int width = res / 35;
+        static int height = res / 35;
 
         static int[,] make2DArray(int cols, int rows)
         {
