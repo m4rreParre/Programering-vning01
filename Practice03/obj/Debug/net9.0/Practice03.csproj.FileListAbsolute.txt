@@ -1,0 +1,15 @@
+C:\Users\marvin.gren\Documents\programmering01\Prov\Programering-vning01\Practice03\bin\Debug\net9.0\Practice03.exe
+C:\Users\marvin.gren\Documents\programmering01\Prov\Programering-vning01\Practice03\bin\Debug\net9.0\Practice03.deps.json
+C:\Users\marvin.gren\Documents\programmering01\Prov\Programering-vning01\Practice03\bin\Debug\net9.0\Practice03.runtimeconfig.json
+C:\Users\marvin.gren\Documents\programmering01\Prov\Programering-vning01\Practice03\bin\Debug\net9.0\Practice03.dll
+C:\Users\marvin.gren\Documents\programmering01\Prov\Programering-vning01\Practice03\bin\Debug\net9.0\Practice03.pdb
+C:\Users\marvin.gren\Documents\programmering01\Prov\Programering-vning01\Practice03\obj\Debug\net9.0\Practice03.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\marvin.gren\Documents\programmering01\Prov\Programering-vning01\Practice03\obj\Debug\net9.0\Practice03.AssemblyInfoInputs.cache
+C:\Users\marvin.gren\Documents\programmering01\Prov\Programering-vning01\Practice03\obj\Debug\net9.0\Practice03.AssemblyInfo.cs
+C:\Users\marvin.gren\Documents\programmering01\Prov\Programering-vning01\Practice03\obj\Debug\net9.0\Practice03.csproj.CoreCompileInputs.cache
+C:\Users\marvin.gren\Documents\programmering01\Prov\Programering-vning01\Practice03\obj\Debug\net9.0\Practice03.sourcelink.json
+C:\Users\marvin.gren\Documents\programmering01\Prov\Programering-vning01\Practice03\obj\Debug\net9.0\Practice03.dll
+C:\Users\marvin.gren\Documents\programmering01\Prov\Programering-vning01\Practice03\obj\Debug\net9.0\refint\Practice03.dll
+C:\Users\marvin.gren\Documents\programmering01\Prov\Programering-vning01\Practice03\obj\Debug\net9.0\Practice03.pdb
+C:\Users\marvin.gren\Documents\programmering01\Prov\Programering-vning01\Practice03\obj\Debug\net9.0\Practice03.genruntimeconfig.cache
+C:\Users\marvin.gren\Documents\programmering01\Prov\Programering-vning01\Practice03\obj\Debug\net9.0\ref\Practice03.dll

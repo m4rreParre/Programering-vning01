@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\marvin.gren\\Documents\\programmering01\\Prov\\Programering-vning01\\GameOfLife\\GameOfLife.csproj": {}
+    "C:\\Users\\marvin.gren\\Documents\\programmering01\\Prov\\Programering-vning01\\Practice03\\Practice03.csproj": {}
   },
   "projects": {
-    "C:\\Users\\marvin.gren\\Documents\\programmering01\\Prov\\Programering-vning01\\GameOfLife\\GameOfLife.csproj": {
+    "C:\\Users\\marvin.gren\\Documents\\programmering01\\Prov\\Programering-vning01\\Practice03\\Practice03.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\marvin.gren\\Documents\\programmering01\\Prov\\Programering-vning01\\GameOfLife\\GameOfLife.csproj",
-        "projectName": "GameOfLife",
-        "projectPath": "C:\\Users\\marvin.gren\\Documents\\programmering01\\Prov\\Programering-vning01\\GameOfLife\\GameOfLife.csproj",
+        "projectUniqueName": "C:\\Users\\marvin.gren\\Documents\\programmering01\\Prov\\Programering-vning01\\Practice03\\Practice03.csproj",
+        "projectName": "Practice03",
+        "projectPath": "C:\\Users\\marvin.gren\\Documents\\programmering01\\Prov\\Programering-vning01\\Practice03\\Practice03.csproj",
         "packagesPath": "C:\\Users\\marvin.gren\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\marvin.gren\\Documents\\programmering01\\Prov\\Programering-vning01\\GameOfLife\\obj\\",
+        "outputPath": "C:\\Users\\marvin.gren\\Documents\\programmering01\\Prov\\Programering-vning01\\Practice03\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
